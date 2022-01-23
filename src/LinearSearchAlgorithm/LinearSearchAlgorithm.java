@@ -7,12 +7,15 @@ public class LinearSearchAlgorithm {
      */
     public static void main(String[] args) {
 
+        //? Find the target element is present if the array or not.
         int[] nums = {1, 2, 18, 20, -19, 10, -1, 89, 78};
-        int target = 789;
-        int result = linearSearch(nums, target);
-        int ans = linearSearchAlgo(nums, target);
-        System.out.println("Index is : " + result);
-        System.out.println("Element is: " + ans);
+        int target = -1;
+        int index = linearSearch(nums, target);
+        int element = linearSearchAlgo(nums, target);
+        boolean indexOrElementPresentOrNOt = linearSearchAl(nums,target);
+        System.out.println("Index is : " + index);
+        System.out.println("Element is: " + element);
+        System.out.println("Index and Element is Present: " + indexOrElementPresentOrNOt);
 
     }
 
