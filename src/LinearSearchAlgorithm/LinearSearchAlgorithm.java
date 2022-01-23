@@ -72,6 +72,7 @@ public class LinearSearchAlgorithm {
         }
         //* run for each loop
         for (int element : arr) {
+
             //* check for element at every index if it is = target
             if (element == target) {
                 return true;
