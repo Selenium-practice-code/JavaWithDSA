@@ -70,7 +70,7 @@ public class LinearSearchAlgorithm {
         if (arr.length == 0) {
             return false; //! array not found return false
         }
-        //* run for loop
+        //* run for each loop
         for (int element : arr) {
             //* check for element at every index if it is = target
             if (element == target) {
