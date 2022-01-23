@@ -35,6 +35,7 @@ public class LinearSearchAlgorithm {
         }
 
         //* this line will execute if none of the return statements above have executed
+        //* Not taking -1 as return because element in array also be -1, so we use Integer.MAX_VALUE
         return Integer.MAX_VALUE; //! hence, target not found
     }
 
