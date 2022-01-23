@@ -34,7 +34,7 @@ public class LinearSearchAlgorithm {
             }
         }
 
-        //* this line will execute if none of the rerun statements above have executed
+        //* this line will execute if none of the return statements above have executed
         return -1; //! hence, target not found
     }
 
