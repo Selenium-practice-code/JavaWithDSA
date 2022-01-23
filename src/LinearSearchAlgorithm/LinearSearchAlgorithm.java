@@ -7,7 +7,7 @@ public class LinearSearchAlgorithm {
      */
     public static void main(String[] args) {
 
-        //? Find the target element is present if the array or not.
+        //? Find the target element is present in the array or not.
         int[] nums = {1, 2, 18, 20, -19, 10, -1, 89, 78};
         int target = -1;
         int index = linearSearch(nums, target);
@@ -66,7 +66,7 @@ public class LinearSearchAlgorithm {
     // todo: Search the target and return True if element found otherwise False
     public static boolean linearSearchAl(int[] arr, int target) {
 
-        //* check if element is in array
+        //* check if elements is in array or not
         if (arr.length == 0) {
             return false; //! array not found return false
         }
