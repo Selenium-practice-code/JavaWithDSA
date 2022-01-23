@@ -12,7 +12,7 @@ public class LinearSearchAlgorithm {
         int target = -1;
         int index = linearSearch(nums, target);
         int element = linearSearchAlgo(nums, target);
-        boolean indexOrElementPresentOrNOt = linearSearchAl(nums,target);
+        boolean indexOrElementPresentOrNOt = linearSearchAl(nums, target);
         System.out.println("Index is : " + index);
         System.out.println("Element is: " + element);
         System.out.println("Index and Element is Present: " + indexOrElementPresentOrNOt);
@@ -50,7 +50,7 @@ public class LinearSearchAlgorithm {
             return -1; //! if element not found in the array it returns -1
         }
 
-        //* run for loop
+        //* run for each loop
         for (int element : arr) {
             //* check for element at every index if it is = target
             if (element == target) {
