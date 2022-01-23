@@ -19,7 +19,7 @@ public class LinearSearchAlgorithm {
 
     }
 
-    // todo: Search in the array-> rerun the index if item found
+    // todo: Search in the array-> return the index if item found
     public static int linearSearch(int[] arr, int target) {
 
         //* check if element is in array
