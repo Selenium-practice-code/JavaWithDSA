@@ -27,7 +27,7 @@ public class FindMaxWealth {
             }
 
             //* now we have sum of the accounts of the person
-            //* check with overall wealthy
+            //* check with overall wealth
             if (sum > wealth) {
                 wealth = sum;
             }
