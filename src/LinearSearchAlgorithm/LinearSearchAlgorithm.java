@@ -19,7 +19,7 @@ public class LinearSearchAlgorithm {
 
     }
 
-    // todo: Search in the array-> return the index if item found
+    // todo: Search in the array-> return that index if item found
     public static int linearSearch(int[] arr, int target) {
 
         //* check if element is in array
@@ -42,8 +42,8 @@ public class LinearSearchAlgorithm {
         return Integer.MAX_VALUE; //! hence, target not found
     }
 
-    // todo: Search the target and return the element
-    //todo: same method as above using for find element in array(method overload)
+    // todo: Search the target and return that element
+    //todo: same method as above using for find index in array(method overload)
     public static int linearSearch(int target, int[] arr) {
 
         //* check if element is in array

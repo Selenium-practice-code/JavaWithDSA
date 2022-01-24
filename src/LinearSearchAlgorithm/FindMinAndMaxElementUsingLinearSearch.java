@@ -10,9 +10,9 @@ public class FindMinAndMaxElementUsingLinearSearch {
     public static void main(String[] args) {
 
         //? Find the Min value is present in the array.
-        int[] arr = {23, 5, 6, 8, 10, 68};
+        int[] arr = {23, 99, 5, 6, 8, 10, 68};
         System.out.print("Min Value in the array is: " + minValue(arr));
-        System.out.print("Max Value in the array is: " + minValue(arr));
+        System.out.print("\nMax Value in the array is: " + maxValue(arr));
     }
 
     // Todo: Method for finding min value in array
