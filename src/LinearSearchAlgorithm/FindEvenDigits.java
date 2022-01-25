@@ -43,7 +43,7 @@ public class FindEvenDigits {
         //* calling the digit method
         int numberOfDigits = digits(num);
 
-        //* check if number of digits if even or not
+        //* check if number of digits is even or not
         return numberOfDigits % 2 == 0; //! if number even return True otherwise False
 
     }
