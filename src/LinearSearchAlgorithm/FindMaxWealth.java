@@ -16,7 +16,7 @@ public class FindMaxWealth {
 
     public static int maxWealth(int[][] accounts) {
 
-        int wealth = Integer.MIN_VALUE;
+        int mWealth = Integer.MIN_VALUE;
         //* iterating from each person account
         for (int[] acc : accounts) {
 
@@ -28,10 +28,10 @@ public class FindMaxWealth {
 
             //* now we have sum of the accounts of the person
             //* check with overall wealth
-            if (sum > wealth) {
-                wealth = sum;
+            if (sum > mWealth) {
+                mWealth = sum;
             }
         }
-        return wealth;
+        return mWealth;
     }
 }
