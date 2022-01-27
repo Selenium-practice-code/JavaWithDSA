@@ -39,7 +39,7 @@ public class BinarySearch {
             } else if (target > arr[mid]) {
                 startIndex = mid + 1;
             } else {
-                //* target element is found
+                //* target element is found (target == mid)
                 return mid;
             }
         }

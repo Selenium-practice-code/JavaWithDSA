@@ -37,7 +37,7 @@ public class OrderAgnosticBinarySearch {
             if (arr[mid] == target) {
                 return mid;
             }
-            //*  check if ascending order do this
+            //*  check if array in ascending order do this
             if (isAsc) {
 
                 if (target < arr[mid]) {
@@ -47,7 +47,7 @@ public class OrderAgnosticBinarySearch {
                     start = mid + 1;
                 }
 
-                //* in descending order do this
+                //* array in descending order do this
             } else {
                 if (target > arr[mid]) {
                     end = mid - 1;
