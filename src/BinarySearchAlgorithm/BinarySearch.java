@@ -3,8 +3,8 @@ package BinarySearchAlgorithm;
 /**
  * For ASC order
  * 1.Binary search is : Find the middle element in the array
- * 2. if target element is > middle element ==> Search Right side of array
- * 3. if target element is < middle element ==> Search left side of array
+ * 2. if target element is > middle element ==> Search Right side of array(s=m+1)
+ * 3. if target element is < middle element ==> Search left side of array(e=m-1)
  * 4. if target element is == to middle element, my element is found.
  * Note: if start index value  > end index value means element not found in array
  */

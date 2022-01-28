@@ -15,7 +15,7 @@ public class SearchIn2DArray {
                 {22, 78, 101, 78, 99}
         };
 
-        int target = 9900;
+        int target = 99;
         int[] targetIndex = search(arr, target); //* format of the return index {row, col}
         System.out.println(Arrays.toString(targetIndex));
 

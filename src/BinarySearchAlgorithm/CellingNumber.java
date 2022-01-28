@@ -1,7 +1,7 @@
 package BinarySearchAlgorithm;
 
 /**
- * Celling Number in array is :- greater number <= target number
+ * Celling Number in array is :-(the largest element in array greater than or equal to target) greater number >= target number
  */
 public class CellingNumber {
 

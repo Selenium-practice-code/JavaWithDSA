@@ -1,7 +1,7 @@
 package BinarySearchAlgorithm;
 
 /**
- * Floor Number in array is :- smaller no >= target number
+ * Floor Number in array is :-(the largest element in array smaller than or equal to target) smaller no <= target number
  */
 public class FloorNumber {
 
