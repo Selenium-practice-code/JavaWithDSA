@@ -14,7 +14,7 @@ public class RotationCount {
 
     public static int countRotations(int[] arr) {
 
-        //* fist find pivot
+        //* first find pivot
         int pivot = findPivot(arr);
 
         //* return the rotation of the array
