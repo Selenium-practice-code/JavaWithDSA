@@ -92,8 +92,6 @@ public class RotatedArray {
 
             //* case 2: if my middle element is less than previous one
             //* make sure it is not exceeding outside the range
-            //* suppose mid is equal to last index of the array then check for arr[mid - 1] means last index - 1
-            //* it gives error IndexOutOfBond Exception
             //* so mid is always be greater than end when make this check
             if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
@@ -139,8 +137,6 @@ public class RotatedArray {
 
             //* case 2: if my middle element is less than previous one
             //* make sure it is not exceeding outside the range
-            //* suppose mid is equal to last index of the array then check for arr[mid + 1] means last index+ 1
-            //* it gives error IndexOutOfBond Exception
             //* so mid is always be greater than end when make this check
             if (mid > start && arr[mid] < arr[mid - 1]) {
                 return mid - 1;
